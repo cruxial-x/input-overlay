@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body, iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#gamepads {
+    transform: scale(0.8); /* Adjust the scale to fit */
+    transform-origin: center center; /* Ensure scaling is from the center */
+    position: absolute; /* Allow centering */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.8); /* Center and scale */
+}
